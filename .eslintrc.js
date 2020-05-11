@@ -4,6 +4,9 @@ module.exports = {
       node: {
         path: ["src"]
       }
+    },
+    parserOptions: {
+      sourceType: "module"
     }
   }
 };
